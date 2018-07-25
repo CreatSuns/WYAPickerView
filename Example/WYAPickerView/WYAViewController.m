@@ -7,10 +7,12 @@
 //
 
 #import "WYAViewController.h"
-#import "WYAAddressPickerView.h"
-@interface WYAViewController ()
+#import <WYAPickerView/WYAAddressPickerView.h>
+#import <WYAPickerView/WYASinglePickerView.h>
+@interface WYAViewController ()<AddressDelegate, SingleDelegate>
 
-@property (nonatomic, strong) WYAAddressPickerView * pickerView;
+
+
 
 @end
 
@@ -24,9 +26,28 @@
     
 }
 - (IBAction)ssdad:(id)sender {
-    self.pickerView = [[WYAAddressPickerView alloc]init];
+//    WYAAddressPickerView * pickerView = [[WYAAddressPickerView alloc]init];
+//    pickerView.delegate = self;
+//    pickerView.cancelButtonColor = [UIColor redColor];
+//    pickerView.sureButtonColor = [UIColor redColor];
+//    pickerView.pickerHeight = 150;
+//    [pickerView show];
+    
+    WYASinglePickerView * pickerView = [[WYASinglePickerView alloc]init];
+    pickerView.delegate = self;
+    pickerView.cancelButtonColor = [UIColor redColor];
+    pickerView.sureButtonColor = [UIColor redColor];
+    pickerView.pickerHeight = 150;
+    pickerView.dataSource = @[@"haha",@"hehe"];
+    [pickerView show];
+}
 
-    [self.pickerView show];
+- (void)singleWithResultString:(NSString *)result{
+    NSLog(@"result==%@",result);
+}
+
+-(void)addressWithProvince:(NSString *)province City:(NSString *)city Area:(NSString *)area{
+    NSLog(@"省=%@，市=%@，区=%@",province,city,area);
 }
 
 - (void)didReceiveMemoryWarning

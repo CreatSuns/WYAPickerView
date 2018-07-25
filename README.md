@@ -22,7 +22,7 @@ pod 'WYAPickerView'
 
 ## Author
 
-WYA, develop
+WYA, develops
 
 ## License
 
