@@ -11,6 +11,7 @@
 #endif
 
 #import "WYAAddressPickerView.h"
+#import "WYAPickerView.h"
 #import "WYASinglePickerView.h"
 
 FOUNDATION_EXPORT double WYAPickerViewVersionNumber;

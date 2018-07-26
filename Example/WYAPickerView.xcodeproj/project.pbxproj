@@ -207,8 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0246C5425547A58B4F922DC5 /* [CP] Embed Pods Frameworks */,
-				6C363589839E188BFB75532E /* [CP] Copy Pods Resources */,
+				A3592A189140F30328BA0111 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,8 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				AA65ACCF69E6E2B5CEDE6E7F /* [CP] Embed Pods Frameworks */,
-				039ED8DE054C1891A213D1A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,7 +297,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0246C5425547A58B4F922DC5 /* [CP] Embed Pods Frameworks */ = {
+		A3592A189140F30328BA0111 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,51 +313,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYAPickerView_Example/Pods-WYAPickerView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		039ED8DE054C1891A213D1A9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYAPickerView_Tests/Pods-WYAPickerView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6C363589839E188BFB75532E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYAPickerView_Example/Pods-WYAPickerView_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA65ACCF69E6E2B5CEDE6E7F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYAPickerView_Tests/Pods-WYAPickerView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DA56501CCE4C364E3121A110 /* [CP] Check Pods Manifest.lock */ = {

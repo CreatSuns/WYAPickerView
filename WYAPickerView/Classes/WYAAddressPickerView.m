@@ -7,7 +7,7 @@
 //
 
 #import "WYAAddressPickerView.h"
-
+#import "WYAPickerView.h"
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 #define Window                  ([UIApplication sharedApplication].keyWindow)
@@ -57,7 +57,9 @@ static CGFloat titleHeight = 50.0;
         [Window addSubview:self];
         [Window bringSubviewToFront:self];
         
-        NSString * path = [[NSBundle mainBundle] pathForResource:@"Frameworks/WYAPickerView.framework/WYAPickerView.bundle/address" ofType:@"json"];
+//        NSString * path = [[NSBundle mainBundle] pathForResource:@"Frameworks/WYAPickerView.framework/WYAPickerView.bundle/area" ofType:@"plist"];
+        NSBundle * bund = [NSBundle bundleForClass:[WYAAddressPickerView class]];
+        NSString *path = [bund pathForResource:@"area" ofType:@"plist"];
         self.addressDic = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:path] options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves error:nil];
         
         self.provinces = self.addressDic[@"province"];
