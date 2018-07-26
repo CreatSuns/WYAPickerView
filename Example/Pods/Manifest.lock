@@ -1,5 +1,5 @@
 PODS:
-  - WYAPickerView (0.1.1)
+  - WYAPickerView (0.1.2)
 
 DEPENDENCIES:
   - WYAPickerView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WYAPickerView: 2d0bd632d114f2c7b8d99315141916215a3569ae
+  WYAPickerView: fb11afcea3fa9f94fa55cdce7bc22d331c747570
 
 PODFILE CHECKSUM: 603493da93cc99787c27b6373a49d9a7c61e168c
 

@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'WYAPickerView/Classes/**/*'
   
   s.resource_bundles = {
-       'WYAPickerView' => ['WYAPickerView/resouce/*']
+       'WYAPickerView' => ['WYAPickerView/Assets/WYAPickerView.bundle/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

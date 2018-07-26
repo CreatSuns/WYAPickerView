@@ -9,21 +9,20 @@
 /* Begin PBXBuildFile section */
 		06B8C0C429765D350145246F4478A574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		07B24FB677D5211A1894AF58BB49CD12 /* Pods-WYAPickerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFEE40694D5B7FA9FEF6852D9025FB7 /* Pods-WYAPickerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1075FF454943415E1AF04DA01129E6A5 /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = 566B69E277DA0841EC07A12989B67F6C /* address.json */; };
 		10D5267F68780CE578A0CDD03C8986AF /* WYAPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F53C3BF6B86BC88D1C8FD3CD730A4B95 /* WYAPickerView.bundle */; };
 		1573FB1194324903CD2E9714117193FB /* Pods-WYAPickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFAF629A81A9181D352D5D271BEA15B /* Pods-WYAPickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1940260B7E7265B651645A0AC743A7BC /* WYAPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63A33C4301D71A783B95A87194A624 /* WYAPickerView-dummy.m */; };
-		1E84D5F649BDC960098BB4E10BF7150A /* WYAPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DABC1AC66B6E73ACEAE0CB5DE98429C /* WYAPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1940260B7E7265B651645A0AC743A7BC /* WYAPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEB0CBC9AB10656165696B450511682 /* WYAPickerView-dummy.m */; };
+		1E84D5F649BDC960098BB4E10BF7150A /* WYAPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C44638E163F5DD8B84DE5754B4C41332 /* WYAPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CF5088F8089B2A538D980992C32D28A /* Pods-WYAPickerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D138377203585AFABA21C458376F23EC /* Pods-WYAPickerView_Example-dummy.m */; };
-		733934AA9E9281EBD371F1B0EB7E1DBE /* WYAAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81867BEA1EA5B8F9CE2D07B0B2FE5EA2 /* WYAAddressPickerView.m */; };
+		733934AA9E9281EBD371F1B0EB7E1DBE /* WYAAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3924AC0DAB6B6CC9382C9412016B2BD /* WYAAddressPickerView.m */; };
 		985A1172E3AA4B8F6530B23EFA419956 /* Pods-WYAPickerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8537F382EFF0EB3416B8F5B02C66CA82 /* Pods-WYAPickerView_Tests-dummy.m */; };
-		9A906A582D62F88F29C9F825A67C135D /* WYAAddressPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7494BC53996230D3E941953E592354 /* WYAAddressPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5DF5ADB7F4F29343F49D51E76E26871 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79C0D03A8FB05FE518C0705BE5FF91C4 /* area.plist */; };
-		C52F3B62A29BD161741EB7AF743872BD /* WYAPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B61BA3E90143D8F833C791B9209BCBB9 /* WYAPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0511B0664AB8F82E07EDF1C80C42030 /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = B1A2E477EC349A5DA76118C356B8D991 /* address.json */; };
-		DAB1A212B1071BA5E193EE94E35753B8 /* WYASinglePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 743519C03F42FD2C2D92BB789D1228F3 /* WYASinglePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE182D90DB8C359E9040220A7E274B5F /* WYASinglePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B8F38966952728FCF763308FCC23AB /* WYASinglePickerView.m */; };
+		9A906A582D62F88F29C9F825A67C135D /* WYAAddressPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F295BD056CAD9EA14F2AB7C623FF6D7 /* WYAAddressPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C52F3B62A29BD161741EB7AF743872BD /* WYAPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E148836ADCF6559EC41877D5C41AFDE /* WYAPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAB1A212B1071BA5E193EE94E35753B8 /* WYASinglePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1C4FC8F428E96A13F22CB073C15FBE /* WYASinglePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE182D90DB8C359E9040220A7E274B5F /* WYASinglePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18066E42437BBB5216F2959B3A76D6D /* WYASinglePickerView.m */; };
 		EDAE29940DEEA41F9794B33C8080382F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F3736AA35D7310DE11C672662558ABE4 /* WYAPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE14775F096FDDDCBBCF0C2B32AF229 /* WYAPickerView.m */; };
+		F3736AA35D7310DE11C672662558ABE4 /* WYAPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6668A690AA25A667AD34D9FF70E44D63 /* WYAPickerView.m */; };
 		F9634D8BAD5BFAAC8DF51A160835F09B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,51 +51,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F74660C4B61E42059EE9D784DF6B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		01077B7EE1F67EF4333C7D16A21BE49D /* Pods-WYAPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		018B8F04CAF67572E6EF4727DE6F7A17 /* Pods-WYAPickerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAPickerView_Example-resources.sh"; sourceTree = "<group>"; };
 		025D5EDF5C46B8F5BC6F8CDC6A0ED5D4 /* Pods_WYAPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAPickerView_Tests.framework; path = "Pods-WYAPickerView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		110224F384C414E5BBD1040B4153676D /* HowToUse.md */ = {isa = PBXFileReference; includeInIndex = 1; name = HowToUse.md; path = Docs/HowToUse.md; sourceTree = "<group>"; };
+		0595401F3476E8EB857C7E537066DDAD /* WYAPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYAPickerView.modulemap; sourceTree = "<group>"; };
+		0F1C4FC8F428E96A13F22CB073C15FBE /* WYASinglePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYASinglePickerView.h; path = WYAPickerView/Classes/WYASinglePickerView.h; sourceTree = "<group>"; };
 		15EE0522DEEE0C6DF8B55E71E90464F7 /* Pods-WYAPickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAPickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		17D02B6E146035F9EC86223EABD5087D /* WYAPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYAPickerView.xcconfig; sourceTree = "<group>"; };
-		185DCCF830EAEA5B65C44C0B64C0BE4B /* WYAPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WYAPickerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F5E408354BA0A699913BE7EFB273315 /* WYAPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WYAPickerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		229E3DE53A1662B0474912E5C90AC8B7 /* Pods-WYAPickerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAPickerView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		37CD30E4D26A2130508ABF3189A15172 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2AAFDC9E89069093CD77BAC08C4848 /* WYAPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAPickerView-prefix.pch"; sourceTree = "<group>"; };
 		3C6B3AE25E1258EF84761C337CEDAFB1 /* WYAPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYAPickerView.framework; path = WYAPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		418474FDEA788AB39B042CC2A9831639 /* WYAPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAPickerView-prefix.pch"; sourceTree = "<group>"; };
-		4A5B3FD8F752E415775B009C4B22C28A /* WYAPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYAPickerView.modulemap; sourceTree = "<group>"; };
 		4DFAF629A81A9181D352D5D271BEA15B /* Pods-WYAPickerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAPickerView_Example-umbrella.h"; sourceTree = "<group>"; };
-		4F7494BC53996230D3E941953E592354 /* WYAAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYAAddressPickerView.h; path = WYAPickerView/Classes/WYAAddressPickerView.h; sourceTree = "<group>"; };
+		4E148836ADCF6559EC41877D5C41AFDE /* WYAPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAPickerView-umbrella.h"; sourceTree = "<group>"; };
 		5544C4EE2027C0D7E24A446A1D01D032 /* Pods-WYAPickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAPickerView_Example.modulemap"; sourceTree = "<group>"; };
 		56003C2CD084164C267D7CB8370AE04F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566B69E277DA0841EC07A12989B67F6C /* address.json */ = {isa = PBXFileReference; includeInIndex = 1; name = address.json; path = WYAPickerView/Assets/WYAPickerView.bundle/address.json; sourceTree = "<group>"; };
+		591DC7CC93A3099B17B472DCBB25F0AA /* WYAPickerView-0.1.0-Migration-guide.md */ = {isa = PBXFileReference; includeInIndex = 1; name = "WYAPickerView-0.1.0-Migration-guide.md"; path = "Docs/WYAPickerView-0.1.0-Migration-guide.md"; sourceTree = "<group>"; };
+		5A2ABBA1A731C4A236DDEFF1E358579E /* ResourceBundle-WYAPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WYAPickerView-Info.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B63A33C4301D71A783B95A87194A624 /* WYAPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYAPickerView-dummy.m"; sourceTree = "<group>"; };
+		6668A690AA25A667AD34D9FF70E44D63 /* WYAPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYAPickerView.m; path = WYAPickerView/Classes/WYAPickerView.m; sourceTree = "<group>"; };
+		68BBDA0C206ADB583585C9BA608BFD84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6EFEE40694D5B7FA9FEF6852D9025FB7 /* Pods-WYAPickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAPickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		71C0A7C46262B143DC2BA313C8DEA549 /* Pods-WYAPickerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAPickerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		743519C03F42FD2C2D92BB789D1228F3 /* WYASinglePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYASinglePickerView.h; path = WYAPickerView/Classes/WYASinglePickerView.h; sourceTree = "<group>"; };
-		78B8F38966952728FCF763308FCC23AB /* WYASinglePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYASinglePickerView.m; path = WYAPickerView/Classes/WYASinglePickerView.m; sourceTree = "<group>"; };
-		79C0D03A8FB05FE518C0705BE5FF91C4 /* area.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = area.plist; path = WYAPickerView/resouce/area.plist; sourceTree = "<group>"; };
-		7AE14775F096FDDDCBBCF0C2B32AF229 /* WYAPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYAPickerView.m; path = WYAPickerView/Classes/WYAPickerView.m; sourceTree = "<group>"; };
-		7B632D77AF721EA69FAB6D52E1581E5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DABC1AC66B6E73ACEAE0CB5DE98429C /* WYAPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYAPickerView.h; path = WYAPickerView/Classes/WYAPickerView.h; sourceTree = "<group>"; };
-		81867BEA1EA5B8F9CE2D07B0B2FE5EA2 /* WYAAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYAAddressPickerView.m; path = WYAPickerView/Classes/WYAAddressPickerView.m; sourceTree = "<group>"; };
-		8519BAA69F74EE0218756A4DCCFFBCE6 /* ManualInstallation.md */ = {isa = PBXFileReference; includeInIndex = 1; name = ManualInstallation.md; path = Docs/ManualInstallation.md; sourceTree = "<group>"; };
 		8537F382EFF0EB3416B8F5B02C66CA82 /* Pods-WYAPickerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAPickerView_Tests-dummy.m"; sourceTree = "<group>"; };
-		9203249BF3C859CAE904238ABBC2E663 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8F295BD056CAD9EA14F2AB7C623FF6D7 /* WYAAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYAAddressPickerView.h; path = WYAPickerView/Classes/WYAAddressPickerView.h; sourceTree = "<group>"; };
+		8FEB0CBC9AB10656165696B450511682 /* WYAPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYAPickerView-dummy.m"; sourceTree = "<group>"; };
 		921B58F6AE035A6C69064F1D3EE71182 /* Pods-WYAPickerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAPickerView_Tests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1A2E477EC349A5DA76118C356B8D991 /* address.json */ = {isa = PBXFileReference; includeInIndex = 1; name = address.json; path = WYAPickerView/resouce/address.json; sourceTree = "<group>"; };
+		9F0D23797995BE51C92B44D649B16931 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F24F143777F1D033D593D67B148287 /* HowToUse.md */ = {isa = PBXFileReference; includeInIndex = 1; name = HowToUse.md; path = Docs/HowToUse.md; sourceTree = "<group>"; };
 		B2346671C5B88D53257376656A5ECC6B /* Pods-WYAPickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAPickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B2B3B390D42364EE3FC02164D7BC9220 /* WYAPickerView-0.1.0-Migration-guide.md */ = {isa = PBXFileReference; includeInIndex = 1; name = "WYAPickerView-0.1.0-Migration-guide.md"; path = "Docs/WYAPickerView-0.1.0-Migration-guide.md"; sourceTree = "<group>"; };
-		B61BA3E90143D8F833C791B9209BCBB9 /* WYAPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAPickerView-umbrella.h"; sourceTree = "<group>"; };
 		B64DFCC8E3A61D6240CDC1CB25A11F82 /* Pods-WYAPickerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAPickerView_Tests-resources.sh"; sourceTree = "<group>"; };
+		B65CD154550ABCA39EA737870BCE1737 /* ManualInstallation.md */ = {isa = PBXFileReference; includeInIndex = 1; name = ManualInstallation.md; path = Docs/ManualInstallation.md; sourceTree = "<group>"; };
+		BDF475693E6ED8919CCEEFFC6FC011A9 /* WYAPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYAPickerView.xcconfig; sourceTree = "<group>"; };
 		C13952FBEE75925E1D3C57A50695406B /* Pods_WYAPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAPickerView_Example.framework; path = "Pods-WYAPickerView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22FEF9A9B4C4A188A33A1DD0D969CC9 /* Pods-WYAPickerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAPickerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C44638E163F5DD8B84DE5754B4C41332 /* WYAPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYAPickerView.h; path = WYAPickerView/Classes/WYAPickerView.h; sourceTree = "<group>"; };
 		C6F66A803E2516B325591B46D741CB22 /* Pods-WYAPickerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAPickerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C9C5591346700972BF6A5FAFD80B78BE /* ResourceBundle-WYAPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WYAPickerView-Info.plist"; sourceTree = "<group>"; };
 		D138377203585AFABA21C458376F23EC /* Pods-WYAPickerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAPickerView_Example-dummy.m"; sourceTree = "<group>"; };
+		DA374EDEF6511C293F77312B938388C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E3924AC0DAB6B6CC9382C9412016B2BD /* WYAAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYAAddressPickerView.m; path = WYAPickerView/Classes/WYAAddressPickerView.m; sourceTree = "<group>"; };
 		E4A3EF95F420B06BDAE3A9400705C15F /* Pods-WYAPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EB2AC068A4F084E3B1F22F2C307344E7 /* Pods-WYAPickerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAPickerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F18066E42437BBB5216F2959B3A76D6D /* WYASinglePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYASinglePickerView.m; path = WYAPickerView/Classes/WYASinglePickerView.m; sourceTree = "<group>"; };
 		F53C3BF6B86BC88D1C8FD3CD730A4B95 /* WYAPickerView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WYAPickerView.bundle; path = "WYAPickerView-WYAPickerView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AEA0490498A1B4BEB91355B151F828 /* Pods-WYAPickerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAPickerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,44 +152,44 @@
 			path = "Target Support Files/Pods-WYAPickerView_Tests";
 			sourceTree = "<group>";
 		};
-		3642EFC4E916458D8CC7909124568680 /* Support Files */ = {
+		45D9F1D7ED366CC34C119463220E659A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7B632D77AF721EA69FAB6D52E1581E5E /* Info.plist */,
-				C9C5591346700972BF6A5FAFD80B78BE /* ResourceBundle-WYAPickerView-Info.plist */,
-				4A5B3FD8F752E415775B009C4B22C28A /* WYAPickerView.modulemap */,
-				17D02B6E146035F9EC86223EABD5087D /* WYAPickerView.xcconfig */,
-				6B63A33C4301D71A783B95A87194A624 /* WYAPickerView-dummy.m */,
-				418474FDEA788AB39B042CC2A9831639 /* WYAPickerView-prefix.pch */,
-				B61BA3E90143D8F833C791B9209BCBB9 /* WYAPickerView-umbrella.h */,
+				495C5D5F101D8086ED9D788BFB926CAA /* WYAPickerView */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WYAPickerView";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		39142456A0EDC63B9D8DA343CED00735 /* WYAPickerView */ = {
+		495C5D5F101D8086ED9D788BFB926CAA /* WYAPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				4F7494BC53996230D3E941953E592354 /* WYAAddressPickerView.h */,
-				81867BEA1EA5B8F9CE2D07B0B2FE5EA2 /* WYAAddressPickerView.m */,
-				7DABC1AC66B6E73ACEAE0CB5DE98429C /* WYAPickerView.h */,
-				7AE14775F096FDDDCBBCF0C2B32AF229 /* WYAPickerView.m */,
-				743519C03F42FD2C2D92BB789D1228F3 /* WYASinglePickerView.h */,
-				78B8F38966952728FCF763308FCC23AB /* WYASinglePickerView.m */,
-				91AD27F30D61898A36C007BE6A26B0AF /* Pod */,
-				8E16A6B47EC9B3F3490BC6FFD714FF13 /* Resources */,
-				3642EFC4E916458D8CC7909124568680 /* Support Files */,
+				8F295BD056CAD9EA14F2AB7C623FF6D7 /* WYAAddressPickerView.h */,
+				E3924AC0DAB6B6CC9382C9412016B2BD /* WYAAddressPickerView.m */,
+				C44638E163F5DD8B84DE5754B4C41332 /* WYAPickerView.h */,
+				6668A690AA25A667AD34D9FF70E44D63 /* WYAPickerView.m */,
+				0F1C4FC8F428E96A13F22CB073C15FBE /* WYASinglePickerView.h */,
+				F18066E42437BBB5216F2959B3A76D6D /* WYASinglePickerView.m */,
+				986E839502A46DC5A4CEFFD216C35E93 /* Pod */,
+				E885F8F788070486981FB026B967CF20 /* Resources */,
+				4D0BEDC8D04178E5423199CF241A725D /* Support Files */,
 			);
 			name = WYAPickerView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		45D9F1D7ED366CC34C119463220E659A /* Development Pods */ = {
+		4D0BEDC8D04178E5423199CF241A725D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				39142456A0EDC63B9D8DA343CED00735 /* WYAPickerView */,
+				9F0D23797995BE51C92B44D649B16931 /* Info.plist */,
+				5A2ABBA1A731C4A236DDEFF1E358579E /* ResourceBundle-WYAPickerView-Info.plist */,
+				0595401F3476E8EB857C7E537066DDAD /* WYAPickerView.modulemap */,
+				BDF475693E6ED8919CCEEFFC6FC011A9 /* WYAPickerView.xcconfig */,
+				8FEB0CBC9AB10656165696B450511682 /* WYAPickerView-dummy.m */,
+				3B2AAFDC9E89069093CD77BAC08C4848 /* WYAPickerView-prefix.pch */,
+				4E148836ADCF6559EC41877D5C41AFDE /* WYAPickerView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYAPickerView";
 			sourceTree = "<group>";
 		};
 		6F23D7B4D5FEC59EAB0868343EC8CC12 /* Targets Support Files */ = {
@@ -232,24 +230,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		8E16A6B47EC9B3F3490BC6FFD714FF13 /* Resources */ = {
+		986E839502A46DC5A4CEFFD216C35E93 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B1A2E477EC349A5DA76118C356B8D991 /* address.json */,
-				79C0D03A8FB05FE518C0705BE5FF91C4 /* area.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		91AD27F30D61898A36C007BE6A26B0AF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				110224F384C414E5BBD1040B4153676D /* HowToUse.md */,
-				008F74660C4B61E42059EE9D784DF6B6 /* LICENSE */,
-				8519BAA69F74EE0218756A4DCCFFBCE6 /* ManualInstallation.md */,
-				9203249BF3C859CAE904238ABBC2E663 /* README.md */,
-				185DCCF830EAEA5B65C44C0B64C0BE4B /* WYAPickerView.podspec */,
-				B2B3B390D42364EE3FC02164D7BC9220 /* WYAPickerView-0.1.0-Migration-guide.md */,
+				A3F24F143777F1D033D593D67B148287 /* HowToUse.md */,
+				68BBDA0C206ADB583585C9BA608BFD84 /* LICENSE */,
+				B65CD154550ABCA39EA737870BCE1737 /* ManualInstallation.md */,
+				DA374EDEF6511C293F77312B938388C0 /* README.md */,
+				1F5E408354BA0A699913BE7EFB273315 /* WYAPickerView.podspec */,
+				591DC7CC93A3099B17B472DCBB25F0AA /* WYAPickerView-0.1.0-Migration-guide.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -268,6 +257,14 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E885F8F788070486981FB026B967CF20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				566B69E277DA0841EC07A12989B67F6C /* address.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		EBC4EDDD0A7C62299F996334AA5F15F9 /* Products */ = {
@@ -339,7 +336,7 @@
 			buildPhases = (
 				0862ACE422C15C9E7015AAB52CFCB38D /* Sources */,
 				548127933B45C3B6B50A57DF4B585A8D /* Frameworks */,
-				F7701A7375967771AC500F2F69B47166 /* Resources */,
+				B1181007F43DFD1C343E7B1CC42B54D9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -416,20 +413,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B1181007F43DFD1C343E7B1CC42B54D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1075FF454943415E1AF04DA01129E6A5 /* address.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC1FAD99D4554B32F09E60EC1A1815B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				10D5267F68780CE578A0CDD03C8986AF /* WYAPickerView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7701A7375967771AC500F2F69B47166 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0511B0664AB8F82E07EDF1C80C42030 /* address.json in Resources */,
-				B5DF5ADB7F4F29343F49D51E76E26871 /* area.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +492,7 @@
 /* Begin XCBuildConfiguration section */
 		1823E55167953F851409FC4AD8E34F4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17D02B6E146035F9EC86223EABD5087D /* WYAPickerView.xcconfig */;
+			baseConfigurationReference = BDF475693E6ED8919CCEEFFC6FC011A9 /* WYAPickerView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYAPickerView";
@@ -512,7 +508,7 @@
 		};
 		196DAEAC8513F9F9038016FADB88E357 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17D02B6E146035F9EC86223EABD5087D /* WYAPickerView.xcconfig */;
+			baseConfigurationReference = BDF475693E6ED8919CCEEFFC6FC011A9 /* WYAPickerView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYAPickerView";
@@ -561,7 +557,7 @@
 		};
 		1E2B8B5C4FE65B8C97216793BA8EC2C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17D02B6E146035F9EC86223EABD5087D /* WYAPickerView.xcconfig */;
+			baseConfigurationReference = BDF475693E6ED8919CCEEFFC6FC011A9 /* WYAPickerView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -755,7 +751,7 @@
 		};
 		D667B94BDB661FB1BEB5B79261B06800 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17D02B6E146035F9EC86223EABD5087D /* WYAPickerView.xcconfig */;
+			baseConfigurationReference = BDF475693E6ED8919CCEEFFC6FC011A9 /* WYAPickerView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

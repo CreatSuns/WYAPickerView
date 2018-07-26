@@ -58,8 +58,9 @@ static CGFloat titleHeight = 50.0;
         [Window bringSubviewToFront:self];
         
 //        NSString * path = [[NSBundle mainBundle] pathForResource:@"Frameworks/WYAPickerView.framework/WYAPickerView.bundle/area" ofType:@"plist"];
-        NSBundle * bund = [NSBundle bundleForClass:[WYAAddressPickerView class]];
-        NSString *path = [bund pathForResource:@"area" ofType:@"plist"];
+        NSBundle * bund = [NSBundle bundleForClass:[self class]];
+//        NSString *path = [bund pathForResource:@"area" ofType:@"plist"];
+        NSString *path = [bund pathForResource:@"address" ofType:@"json" inDirectory:@"WYAPickerView.bundle"];
         self.addressDic = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:path] options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves error:nil];
         
         self.provinces = self.addressDic[@"province"];
