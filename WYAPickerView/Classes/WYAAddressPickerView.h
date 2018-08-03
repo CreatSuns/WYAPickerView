@@ -10,7 +10,7 @@
 
 @protocol AddressDelegate <NSObject>
 
--(void)addressWithProvince:(NSString *)province City:(NSString *)city Area:(NSString *)area;
+-(void)addressWithPickerView:(UIView *)pickerView Province:(NSString *)province City:(NSString *)city Area:(NSString *)area;
 
 @end
 

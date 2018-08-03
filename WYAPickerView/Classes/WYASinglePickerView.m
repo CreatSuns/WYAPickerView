@@ -118,8 +118,8 @@ static CGFloat titleHeight = 50.0;
 
 - (void)sureClick{
     
-    if (self.delegate && [self.delegate respondsToSelector:@selector(singleWithResultString:)]) {
-        [self.delegate singleWithResultString:self.resultString];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(singleWithPickerView:ResultString:)]) {
+        [self.delegate singleWithPickerView:self ResultString:self.resultString];
         [self cancelClick];
     }
 }

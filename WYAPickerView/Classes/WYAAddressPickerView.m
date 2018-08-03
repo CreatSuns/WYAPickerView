@@ -194,8 +194,8 @@ static CGFloat titleHeight = 50.0;
 }
 
 - (void)sureClick{
-    if (self.delegate && [self.delegate respondsToSelector:@selector(addressWithProvince:City:Area:)]) {
-        [self.delegate addressWithProvince:self.p City:self.c Area:self.a];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(addressWithPickerView:Province:City:Area:)]) {
+        [self.delegate addressWithPickerView:self Province:self.p City:self.c Area:self.a];
         [self cancelClick];
     }
 }

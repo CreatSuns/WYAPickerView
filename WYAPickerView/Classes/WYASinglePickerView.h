@@ -11,7 +11,7 @@
 @protocol SingleDelegate <NSObject>
 
 @required
-- (void)singleWithResultString:(NSString *)result;
+- (void)singleWithPickerView:(UIView *)pickerView ResultString:(NSString *)result;
 
 @end
 
